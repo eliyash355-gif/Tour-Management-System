@@ -51,7 +51,7 @@ Tour-Management-System/
 1. Clone this repository:  
    ```bash
    git clone https://github.com/eliyash355-gif/Tour-Management-System.git
-2. Install visual Studio code and install live Server extension in it -> Open the project folder -> Open index.html by live server extebsion 
+2. Install visual Studio code and install live Server extension in it -> Open the project folder -> Open index.html by live server extension 
 
 
 
