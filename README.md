@@ -27,11 +27,11 @@ A web-based **Tour Management System** built as a varsity project. The system al
 ```
 Tour-Management-System/
 ├── assets/
-│ ├── images/
-│ ├── css/
-│ │ └── style.css
-│ └── js/
-│ └── script.js
+ ├── images/
+├── css/
+  │ └── css files
+├── js/
+│ │└── js files
 ├── index.html
 ├── about.html
 ├── contact.html
@@ -39,6 +39,9 @@ Tour-Management-System/
 ├── tours.html
 ├── terms-&-condition.html
 ├── refund.html
+├── style.css
+├── script.js
+
 ```
 
 
@@ -54,7 +57,7 @@ Tour-Management-System/
 
 
 
-🎯 Future Improvements
+##🎯 Future Improvements
 
 Add backend with PHP / Node.js for real bookings
 
@@ -65,7 +68,7 @@ User login & authentication
 Admin dashboard for managing tours
 
 
-👨‍💻 Author
+##👨‍💻 Author
 
 Eliyas Hossain
 
