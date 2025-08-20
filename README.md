@@ -9,15 +9,14 @@ A web-based **Tour Management System** built as a varsity project. The system al
 ## 🚀 Features  
 - Homepage with attractive UI  
 - Tour packages display  
-- Booking form  
-- Responsive design for desktop & mobile  
+- Booking form    
 - Easy navigation with header/footer menus  
 
 ---
 
 ## 🛠️ Technologies Used  
 - **HTML5** – Structure  
-- **CSS3** – Styling & responsiveness  
+- **CSS3** – Styling 
 - **JavaScript (Vanilla)** – Interactivity  
 - **GitHub Pages** – Hosting  
 
