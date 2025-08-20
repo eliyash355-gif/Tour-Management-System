@@ -55,27 +55,4 @@ Tour-Management-System/
 
 
 
-
-
-
-
-🎯 Future Improvements
-
-Add backend with PHP / Node.js for real bookings
-
-Database integration (MySQL / MongoDB)
-
-User login & authentication
-
-Admin dashboard for managing tours
-
-
-
-
-
-👨‍💻 Author
-
-Eliyas Hossain
-
-GitHub: @eliyash355-gif
    
