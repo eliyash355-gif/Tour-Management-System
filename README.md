@@ -53,7 +53,6 @@ Tour-Management-System/
 2. Install the **Live Server** extension in VS Code.  
 3. Open the **project folder** in VS Code.  
 4. Right-click on **index.html** and select **"Open with Live Server"**.
-2. Install visual Studio code and install live Server extension in it -> Open the project folder -> Open index.html by live server extension 
 
 
 
