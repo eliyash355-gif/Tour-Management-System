@@ -1,4 +1,4 @@
-# Tour Management System  
+## Tourista: A Web-Based Tour Management System  
 
 A web-based **Tour Management System** built as a varsity project. The system allows users to explore tour packages, manage bookings, and get information about different destinations.  
 
@@ -51,13 +51,15 @@ Tour-Management-System/
 1. Clone this repository:  
    ```bash
    git clone https://github.com/eliyash355-gif/Tour-Management-System.git
-2. Open the project folder
-
-3. Run index.html in your browser
+2. Install visual Studio code and install live Server extension in it -> Open the project folder -> Open index.html by live server extebsion 
 
 
 
-##🎯 Future Improvements
+
+
+
+
+🎯 Future Improvements
 
 Add backend with PHP / Node.js for real bookings
 
@@ -68,7 +70,10 @@ User login & authentication
 Admin dashboard for managing tours
 
 
-##👨‍💻 Author
+
+
+
+👨‍💻 Author
 
 Eliyas Hossain
 
