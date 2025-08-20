@@ -23,23 +23,21 @@ A web-based **Tour Management System** built as a varsity project. The system al
 
 ---
 
-## 📂 Project Structure  
+## 📂 Project Structure
 Tour-Management-System/
-│── assets/
+├── assets/
 │ ├── images/
-│── css/
-│ ├── css files
-│── js/
-│ ├── js files
-│── index.html
-│── about.html
-│── contact.html
-│── privacy-policy.html
-│── tours.html
-│── terms-&-condition.html
-│── refund.html
-│── style.css
-│── script.js
+│ ├── css/
+│ │ └── style.css
+│ └── js/
+│ └── script.js
+├── index.html
+├── about.html
+├── contact.html
+├── privacy-policy.html
+├── tours.html
+├── terms-&-condition.html
+├── refund.html
 
 
 
