@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tourista - About</title>
+  <link rel="stylesheet" href="css/terms-&-condition.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!-- header starts -->
+   <header>
+    <nav class="navbar">
+      <div><img class="header-logo" src="assets/images/header-logo.png" alt="logo"></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tours.html">Tours</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+      </ul>
+    <div class="btn-div">
+  <div class="dropdown">
+    <a href="#" id="bookingsBtn" class="btn-bookings">
+      Your Bookings <span id="bookingCount" class="badge">0</span>
+    </a>
+    <div id="bookingsDropdown" class="dropdown-content">
+      <div class="dropdown-header">
+        <span>Your Bookings</span>
+        <button id="closeBookingsDropdown" class="close-dropdown">✖</button>
+      </div>
+      <div id="bookingsList">
+        <p>No bookings yet.</p>
+      </div>
+    </div>
+  </div>
+  <a href="tours.html" class="btn">Plan a Trip <i class="fa-solid fa-arrow-right-long"></i></a>
+</div>
+    </nav>
+  </header>
+
+  <!-- header ends -->
+
+<!-- Terms & Conditions – Tourista -->
+<section id="terms" class="terms">
+  <div class="terms-wrapper">
+    <h1>Terms & Conditions</h1>
+    <p class="meta">Last updated: August 18, 2025</p>
+    <p class="intro">
+      Welcome to <strong>Tourista</strong>. By accessing or using our website, mobile app, and services
+      (collectively, the “Services”), you agree to these Terms & Conditions (“Terms”).
+      Please read them carefully.
+    </p>
+
+    <!-- Collapsible Sections (accessible: native <details>) -->
+    <details open>
+      <summary>1) Use of Website</summary>
+      <div class="content">
+        <ul>
+          <li>You must be at least 18 years old (or the age of majority in your jurisdiction) to make a booking.</li>
+          <li>You agree to use the Services only for lawful purposes and in accordance with these Terms.</li>
+          <li>You are responsible for the accuracy of information you submit, including traveler names, dates, and payment details.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>2) Accounts & Security</summary>
+      <div class="content">
+        <ul>
+          <li>You may need an account to use certain features. Keep your credentials confidential and notify us of any unauthorized use.</li>
+          <li>We may suspend or terminate accounts for suspected fraud, abuse, or violations of these Terms.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>3) Bookings & Payments</summary>
+      <div class="content">
+        <ul>
+          <li>All bookings are subject to availability and written/email confirmation.</li>
+          <li>Prices are shown in <strong>USD</strong> unless stated otherwise and are not guaranteed until payment is confirmed.</li>
+          <li>We accept major payment methods displayed at checkout. By paying, you authorize us (or our payment processor) to charge your method of payment.</li>
+          <li>Some tours require deposits; balances are due by the deadline communicated at checkout or in your confirmation email.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>4) Cancellations, Changes & Refunds</summary>
+      <div class="content">
+        <ul>
+          <li>Cancellation and change policies vary by tour, operator, airline, and season. The specific policy will be shown during booking and in your confirmation.</li>
+          <li>Non-refundable items (e.g., certain tickets or permits) will be clearly labeled and are not eligible for refunds.</li>
+          <li>Where eligible, refunds are processed to the original payment method within <strong>7 business days</strong> after confirmation from the supplier. Processing times by banks may vary.</li>
+          <li>No-shows are typically non-refundable.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>5) Pricing, Taxes & Fees</summary>
+      <div class="content">
+        <ul>
+          <li>Displayed prices may exclude local taxes, resort fees, park fees, baggage fees, or guide gratuities unless explicitly included.</li>
+          <li>We reserve the right to correct pricing errors. If a material pricing error occurs, you may cancel for a full refund.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>6) Travel Documents, Health & Insurance</summary>
+      <div class="content">
+        <ul>
+          <li>You are responsible for valid passports, visas, permits, and vaccinations required for your itinerary.</li>
+          <li>We strongly recommend comprehensive travel insurance covering medical, trip interruption, and baggage.</li>
+          <li>Entry requirements can change at short notice; check official sources before you travel.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>7) Third-Party Providers</summary>
+      <div class="content">
+        <ul>
+          <li>Many services listed on Tourista are provided by independent third parties (e.g., tour operators, airlines, hotels).</li>
+          <li>Each provider’s terms and policies apply to your booking with them and may supersede parts of these Terms.</li>
+          <li>Tourista is not liable for acts, omissions, delays, or errors of third-party providers.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>8) Changes, Delays & Force Majeure</summary>
+      <div class="content">
+        <ul>
+          <li>Itineraries may change due to weather, safety, governmental actions, strikes, or events beyond reasonable control (“Force Majeure”).</li>
+          <li>In such cases, reasonable alternatives will be sought where possible; refunds are subject to supplier policies.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>9) Liability & Disclaimers</summary>
+      <div class="content">
+        <ul>
+          <li>To the fullest extent permitted by law, Tourista disclaims liability for indirect, incidental, or consequential damages arising from the use of the Services.</li>
+          <li>Except where prohibited, our total liability for claims relating to the Services will not exceed the total amount paid to Tourista for the booking giving rise to the claim.</li>
+          <li>Travel involves risks; you participate voluntarily and assume all risks associated with travel activities.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>10) User Content & Reviews</summary>
+      <div class="content">
+        <ul>
+          <li>By submitting reviews, photos, or other content, you grant Tourista a non-exclusive, royalty-free license to use, display, and distribute such content for Service-related purposes.</li>
+          <li>Do not post content that is unlawful, defamatory, infringing, or invasive of privacy.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>11) Prohibited Activities</summary>
+      <div class="content">
+        <ul>
+          <li>Scraping, automated data extraction, or reverse engineering of the Services.</li>
+          <li>Interfering with site security or attempting unauthorized access.</li>
+          <li>Using the Services to commit fraud or misrepresent identity.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>12) Intellectual Property</summary>
+      <div class="content">
+        <ul>
+          <li>All content, trademarks, logos, and software on the Services are owned by or licensed to Tourista and protected by applicable laws.</li>
+          <li>You may not copy, modify, distribute, or create derivative works without prior written consent.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>13) Privacy</summary>
+      <div class="content">
+        <p>
+          Your use of the Services is also governed by our <a href="#privacy" class="link">Privacy Policy</a>,
+          which explains how we collect, use, and share your information.
+        </p>
+      </div>
+    </details>
+
+    <details>
+      <summary>14) Governing Law & Dispute Resolution</summary>
+      <div class="content">
+        <ul>
+          <li>These Terms are governed by the laws of [Your Country/State] without regard to conflict of laws.</li>
+          <li>Disputes will first be attempted to resolve informally within 30 days. If unresolved, disputes will be handled through binding arbitration or the courts of [Jurisdiction], unless applicable law provides otherwise.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>15) Changes to Terms</summary>
+      <div class="content">
+        <ul>
+          <li>We may update these Terms from time to time. Material changes will be posted on this page with a new “Last updated” date.</li>
+          <li>Continued use of the Services after changes constitutes acceptance of the revised Terms.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>16) Contact Us</summary>
+      <div class="content">
+        <p>
+          Questions about these Terms? Contact us at
+          <a href="mailto:support@tourista.example" class="link">support@tourista.example</a>.
+        </p>
+      </div>
+    </details>
+
+  </div>
+</section>
+
+
+
+  <!-- Divider -->
+<hr class="divider">
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-top">
+    <div><img class="footer-logo" src="assets/images/header-logo.png" alt="logo"></div>
+    <ul>
+      <li><a href="about.html">About</a></li>
+      <li><a href="terms-&-condition.html">Terms & Condition</a></li>
+      <li><a href="privacy-policy.html">Privacy Policy</a></li>
+      <li><a href="refund.html">Refund Policy</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </div>
+  <div class="footer-bottom">
+    <p>Made with ❤️ by Eliyas © 2025 Tourista</p>
+  </div>
+</footer>
+    
+  
+    <script src="js/bookings.js"></script>
+    <script src="js/terms-&-condition.js"></script>
+</body>
+</html>

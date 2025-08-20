@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tourista - About</title>
+  <link rel="stylesheet" href="css/refund.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!-- header starts -->
+   <header>
+    <nav class="navbar">
+      <div><img class="header-logo" src="assets/images/header-logo.png" alt="logo"></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tours.html">Tours</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+      </ul>
+    <div class="btn-div">
+  <div class="dropdown">
+    <a href="#" id="bookingsBtn" class="btn-bookings">
+      Your Bookings <span id="bookingCount" class="badge">0</span>
+    </a>
+    <div id="bookingsDropdown" class="dropdown-content">
+      <div class="dropdown-header">
+        <span>Your Bookings</span>
+        <button id="closeBookingsDropdown" class="close-dropdown">✖</button>
+      </div>
+      <div id="bookingsList">
+        <p>No bookings yet.</p>
+      </div>
+    </div>
+  </div>
+  <a href="tours.html" class="btn">Plan a Trip <i class="fa-solid fa-arrow-right-long"></i></a>
+</div>
+    </nav>
+  </header>
+
+  <!-- header ends -->
+
+
+ <section class="refund">
+    <div class="refund-wrapper">
+      <h1>Refund Policy</h1>
+      <p class="meta">Last updated: August 18, 2025</p>
+      <p class="intro">
+        At <strong>Tourista</strong>, we want your travel experience to be smooth and worry-free. 
+        This Refund Policy outlines when you are eligible for refunds, how refunds are processed, 
+        and what exceptions apply.
+      </p>
+
+      <!-- Sections -->
+      <details open>
+        <summary>1) General Eligibility</summary>
+        <div class="content">
+          <ul>
+            <li>Refunds apply only to bookings made directly through the Tourista website or app.</li>
+            <li>Eligibility depends on the cancellation policy of the specific tour operator, airline, or hotel.</li>
+            <li>Non-refundable items (e.g., permits, tickets, certain promotions) will be clearly marked during booking.</li>
+          </ul>
+        </div>
+      </details>
+
+      <details>
+        <summary>2) Timeframe for Cancellations</summary>
+        <div class="content">
+          <ul>
+            <li>Cancellations made within <strong>24 hours of booking</strong> are eligible for a full refund (unless stated otherwise).</li>
+            <li>After 24 hours, refunds depend on the partner’s cancellation terms.</li>
+            <li>No-shows are generally not eligible for refunds.</li>
+          </ul>
+        </div>
+      </details>
+
+      <details>
+        <summary>3) Processing of Refunds</summary>
+        <div class="content">
+          <ul>
+            <li>Refunds (when approved) will be issued to the original payment method.</li>
+            <li>Processing time is typically <strong>7–10 business days</strong>, but your bank or card provider may take longer.</li>
+            <li>Service or processing fees may be non-refundable.</li>
+          </ul>
+        </div>
+      </details>
+
+      <details>
+        <summary>4) Third-Party Providers</summary>
+        <div class="content">
+          <ul>
+            <li>For flights, hotels, or tours booked through third parties, their policies take precedence.</li>
+            <li>Tourista is not responsible for delays or denials of refunds by third-party operators.</li>
+          </ul>
+        </div>
+      </details>
+
+      <details>
+        <summary>5) Exceptional Circumstances</summary>
+        <div class="content">
+          <p>
+            In cases of force majeure (e.g., natural disasters, government restrictions, pandemics), 
+            refunds or credits may be issued at the discretion of Tourista and/or our partners.
+          </p>
+        </div>
+      </details>
+
+      <details>
+        <summary>6) Contact Us</summary>
+        <div class="content">
+          <p>
+            If you have questions about refunds, please contact us at:
+            <a href="mailto:refunds@tourista.example" class="link">refunds@tourista.example</a>.
+          </p>
+        </div>
+      </details>
+
+    </div>
+  </section>
+
+
+
+  <!-- Divider -->
+<hr class="divider">
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-top">
+    <div><img class="footer-logo" src="assets/images/header-logo.png" alt="logo"></div>
+    <ul>
+      <li><a href="about.html">About</a></li>
+      <li><a href="terms-&-condition.html">Terms & Condition</a></li>
+      <li><a href="privacy-policy.html">Privacy Policy</a></li>
+      <li><a href="refund.html">Refund Policy</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </div>
+  <div class="footer-bottom">
+    <p>Made with ❤️ by Eliyas © 2025 Tourista</p>
+  </div>
+</footer>
+    
+
+    <script src="js/bookings.js"></script>
+    <script src="js/refund.js"></script>
+</body>
+</html>

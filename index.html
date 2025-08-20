@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tourista - Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div><img class="header-logo" src="assets/images/header-logo.png" alt="logo"></div>
+      <ul class="nav-links">
+        <a id="home-link" href="index.html" class="active">Home</a>
+        <li><a href="tours.html">Tours</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+      </ul>
+    <div class="btn-div">
+  <div class="dropdown">
+    <a href="#" id="bookingsBtn" class="btn-bookings">
+      Your Bookings <span id="bookingCount" class="badge">0</span>
+    </a>
+    <div id="bookingsDropdown" class="dropdown-content">
+      <div class="dropdown-header">
+        <span>Your Bookings</span>
+        <button id="closeBookingsDropdown" class="close-dropdown">✖</button>
+      </div>
+      <div id="bookingsList">
+        <p>No bookings yet.</p>
+      </div>
+    </div>
+  </div>
+  <a href="tours.html" class="btn">Plan a Trip <i class="fa-solid fa-arrow-right-long"></i></a>
+</div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+
+        <img class="plane-img" src="assets/images/plane.png" alt="">
+       
+      <h1>Explore The World <br> And Enjoy Your Trip</h1>
+      <p>Some of the most visited places include Sahara Desert, Alps & Grand Canyon. Successfully register for mountain climbs, forest adventures, and excursions.</p>
+
+<!-- Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<!-- Flatpickr CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+<div class="trip-info">
+  <!-- Location -->
+  <div class="trip-item">
+    <span><i class="fa-solid fa-location-dot"></i>Location</span>
+    <input type="text" 
+           id="locationInput" 
+           placeholder="Select a location" 
+           readonly 
+           onclick="togglePopup('location-popup')" />
+    <div class="popup" id="location-popup" onclick="event.stopPropagation()">
+      <ul>
+        <li onclick="selectLocation(event, 'Brazil, South America')">Brazil, South America</li>
+        <li onclick="selectLocation(event, 'USA, North America')">USA, North America</li>
+        <li onclick="selectLocation(event, 'Bali & Komodo, Indonesia')">Bali & Komodo, Indonesia</li>
+        <li onclick="selectLocation(event, 'Paris, France')">Paris, France</li>
+      </ul>
+    </div>
+  </div>
+
+  <hr class="first-hr">
+
+  <!-- Date -->
+  <div class="trip-item">
+    <span><i class="fa-regular fa-calendar"></i>Date</span>
+    <input type="text" id="dateInput" placeholder="Select a date" />
+  </div>
+
+  <!-- Search -->
+  <div class="search-glass">
+    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+  </div>
+</div>
+
+<!-- Flatpickr JS -->
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+
+    </div>
+
+    <div class="hero-image">
+      <img src="assets/images/home-img-1.jpg" alt="Adventure">
+    </div>
+  </section>
+
+  <!-- About Adventure -->
+  <section class="about">
+    <div class="about-img">
+      <img src="assets/auto changing images/img (1).jpg" alt="Group" id="aboutImage1">
+      <img src="assets/auto changing images/img (2).jpg" alt="Group" id="aboutImage2" style="opacity: 0;">
+    </div>
+    <div class="about-text">
+      <h2>It’s Time For a <span class="highlight">New Adventure!</span><br> Don’t Wait Any Longer.</h2>
+      <p>Our team of travel enthusiasts is obsessed with finding the best trips & adventures near you. From Forest Adventures to Beach Vacations, we make sure you never miss the magic. Travel like a pro with our expert planners who help you find the best deals and unforgettable experiences.</p>
+      <p class="signature">— Eliyas, CEO Tourista</p>
+    </div>
+  </section>
+
+  <!-- Tours -->
+  <section class="tours">
+    <h3 class="tour-heading">Pick A Tour Type</h3>
+    <div class="tour-grid ">
+      <div class="tour-card">
+        <img src="assets/images/forest.jpg" alt="image">
+        <h4>Forest Adventures</h4>
+        <p>Explore lush green trails, breathe fresh air, and discover hidden wildlife on an unforgettable forest adventure.</p>
+        <p class="tour-number">3 Tours Available</p>
+      </div>
+      <div class="tour-card">
+        <img src="assets/images/mountain.jpg" alt="image">
+        <h4>Mountain Climbing</h4>
+        <p>Conquer rugged peaks, embrace thrilling heights, and experience breathtaking views on an epic mountain climb.</p>
+        <p class="tour-number">2 Tours Available</p>
+      </div>
+      <div class="tour-card">
+        <img src="assets/images/beach.jpg" alt="image">
+        <h4>Beach Vacations</h4>
+        <p>Relax on golden shores, bask in warm sunshine, and enjoy endless waves on a perfect beach escape.</p>
+        <p class="tour-number">2 Tours Available</p>
+      </div>
+      <div class="tour-card">
+        <img src="assets/images/city.jpg" alt="image">
+        <h4>City Tours</h4>
+        <p>Discover vibrant streets, taste local flavors, and explore cultural landmarks on an exciting city adventure.</p>
+        <p class="tour-number">1 Tours Available</p>
+      </div>
+    </div>
+    <a href="tours.html" class="btn">Show All <i class="fa-solid fa-arrow-right-long"></i></a>
+  </section>
+
+
+
+
+  <!-- Why We Are Best Section -->
+<section class="why-best">
+  <h2>Why we are best?</h2>
+  <div class="features">
+    <div class="feature-card">
+      <div class="icon">
+        <img src="https://img.icons8.com/fluency-systems-filled/48/ffffff/home.png" alt="Property Insurance">
+      </div>
+      <h3>Property Insurance</h3>
+      <p>We offer our customer property protection of liability coverage and insurance for their better life.</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="icon">
+        <img src="https://img.icons8.com/fluency-systems-filled/48/ffffff/price-tag.png" alt="Best Price">
+      </div>
+      <h3>Best Price</h3>
+      <p>Not sure what you should be charging for your property? No need to worry, let us do the numbers for you.</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="icon">
+        <img src="https://img.icons8.com/fluency-systems-filled/48/ffffff/money-bag.png" alt="Lowest Commission">
+      </div>
+      <h3>Lowest Commission</h3>
+      <p>You no longer have to negotiate commissions and haggle with other agents it only cost 2%!</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="icon">
+        <img src="https://img.icons8.com/fluency-systems-filled/48/ffffff/control-panel.png" alt="Overall Control">
+      </div>
+      <h3>Overall Control</h3>
+      <p>Get a virtual tour, and schedule visits before you rent or buy any properties. You get overall control.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Divider -->
+<hr class="divider">
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-top">
+    <div><img class="footer-logo" src="assets/images/header-logo.png" alt="logo"></div>
+    <ul>
+      <li><a href="about.html">About</a></li>
+      <li><a href="terms-&-condition.html">Terms & Condition</a></li>
+      <li><a href="privacy-policy.html">Privacy Policy</a></li>
+      <li><a href="refund.html">Refund Policy</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </div>
+  <div class="footer-bottom">
+    <p>Made with ❤️ by Eliyas © 2025 Tourista</p>
+  </div>
+</footer>
+
+
+<!-- Search Results Modal -->
+<div id="searchModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal()">&times;</span>
+    <h2 class="popup-h2">Available Tours</h2>
+    <div id="searchResults" class="results-container"></div>
+  </div>
+</div>
+
+
+<!-- Confirm Booking Popup -->
+<div id="bookingOverlay" class="modal-overlay"></div>
+
+<div id="bookingPopup" class="modal-popup">
+  <div class="popup-content">
+    <span id="closeBookingPopup" class="close">&times;</span>
+    <h2>Confirm Booking</h2>
+    <p id="selectedTour"></p> 
+
+    <form id="bookingForm">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+      </div>
+
+      <button type="submit" id="finalConfirmBtn" class="btn-confirm">Confirm Booking</button>
+    </form>
+  </div>
+</div>
+
+<!-- Success Toast -->
+<div id="bookingToast" class="toast">✅ Booking Successful!</div>
+
+
+
+ 
+  <script src="script.js"></script>
+  <script src="js/bookings.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+</body>
+</html>

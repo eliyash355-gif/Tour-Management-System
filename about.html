@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tourista - About</title>
+  <link rel="stylesheet" href="css/about.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!-- header starts -->
+    <header>
+    <nav class="navbar">
+      <div><img class="header-logo" src="assets/images/header-logo.png" alt="logo"></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tours.html">Tours</a></li>
+        <a id="home-link" href="about.html" class="active">About</a>
+        <li><a href="contact.html">Contacts</a></li>
+      </ul>
+    <div class="btn-div">
+  <div class="dropdown">
+    <a href="#" id="bookingsBtn" class="btn-bookings">
+      Your Bookings <span id="bookingCount" class="badge">0</span>
+    </a>
+    <div id="bookingsDropdown" class="dropdown-content">
+      <div class="dropdown-header">
+        <span>Your Bookings</span>
+        <button id="closeBookingsDropdown" class="close-dropdown">✖</button>
+      </div>
+      <div id="bookingsList">
+        <p>No bookings yet.</p>
+      </div>
+    </div>
+  </div>
+  <a href="tours.html" class="btn">Plan a Trip <i class="fa-solid fa-arrow-right-long"></i></a>
+</div>
+    </nav>
+  </header>
+
+  <!-- header ends -->
+
+<!-- 🌍 About Section -->
+<section class="about" id="about">
+  <div class="about-container">
+    <div class="about-content">
+      <h2>About Tourista</h2>
+      <p>
+        At <strong>Tourista</strong>, we believe travel is more than just visiting places—
+        it’s about creating unforgettable experiences. Our mission is to make exploring
+        the world simple, inspiring, and hassle-free for every traveler.
+      </p>
+      <p>
+        With curated tours, expert local guides, and a seamless booking process, we help
+        adventurers discover breathtaking landscapes, vibrant cultures, and hidden gems
+        across the globe.
+      </p>
+    </div>
+
+    <div class="about-features">
+      <div class="feature">
+        <span class="icon">✈</span>
+        <h3>Seamless Booking</h3>
+        <p>Plan your trip in just a few clicks.</p>
+      </div>
+      <div class="feature">
+        <span class="icon">🗺</span>
+        <h3>Expert Guides</h3>
+        <p>Local professionals who bring destinations to life.</p>
+      </div>
+      <div class="feature">
+        <span class="icon">💰</span>
+        <h3>Best Value</h3>
+        <p>Unforgettable journeys at fair prices.</p>
+      </div>
+      <div class="feature">
+        <span class="icon">🌟</span>
+        <h3>Trusted by Travelers</h3>
+        <p>Thousands of happy adventurers worldwide.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Divider -->
+<hr class="divider">
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-top">
+    <div><img class="footer-logo" src="assets/images/header-logo.png" alt="logo"></div>
+    <ul>
+      <li><a href="about.html">About</a></li>
+      <li><a href="terms-&-condition.html">Terms & Condition</a></li>
+      <li><a href="privacy-policy.html">Privacy Policy</a></li>
+      <li><a href="refund.html">Refund Policy</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </div>
+  <div class="footer-bottom">
+    <p>Made with ❤️ by Eliyas © 2025 Tourista</p>
+  </div>
+</footer>
+    
+
+    <script src="js/bookings.js"></script>
+    <script src="js/about.js"></script>
+</body>
+</html>

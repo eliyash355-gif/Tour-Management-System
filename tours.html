@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tourista - Tours</title>
+  <link rel="stylesheet" href="css/tours.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <nav class="navbar">
+    <div><img class="header-logo" src="assets/images/header-logo.png" alt="logo"></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <a id="home-link" href="tours.html" class="active">Tours</a>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contacts</a></li>
+    </ul>
+    <div class="btn-div">
+      <div class="dropdown">
+        <a href="#" id="bookingsBtn" class="btn-bookings">
+          Your Bookings <span id="bookingCount" class="badge">0</span>
+        </a>
+        <div id="bookingsDropdown" class="dropdown-content">
+          <div class="dropdown-header">
+            <span>Your Bookings</span>
+            <button id="closeBookingsDropdown" class="close-dropdown">✖</button>
+          </div>
+          <div id="bookingsList">
+            <p>No bookings yet.</p>
+          </div>
+        </div>
+      </div>
+      <a href="tours.html" id="planTripBtn" class="btn">Plan a Trip <i class="fa-solid fa-arrow-right-long"></i></a>
+    </div>
+  </nav>
+</header>
+
+<!-- Page Header -->
+<header class="page-header">
+  <h1>Our Best Tour Packages</h1>
+  <p>Choose your perfect adventure with us</p>
+</header>
+
+<!-- Tour Sections -->
+<section class="tour-section">
+  <div class="tour-img">
+    <img src="assets/images/amazon.jpg" alt="Amazon">
+  </div>
+  <div class="tour-details">
+    <h2>Enchanted Amazon Escape</h2>
+    <p>Venture deep into the Amazon, where towering trees, vibrant wildlife, and winding rivers create a world unlike any other.</p>
+    <p class="price">Price: <span>$1,250 / person</span></p>
+    <button class="btn-book">Confirm Booking</button>
+  </div>
+</section>
+
+<section class="tour-section">
+  <div class="tour-img">
+    <img src="assets/images/Pantanal.jpg" alt="Pantanal">
+  </div>
+  <div class="tour-details">
+    <h2>Pantanal Wildlife Escape</h2>
+    <p>Explore the Pantanal, the world’s largest tropical wetland. A paradise for wildlife enthusiasts and nature seekers alike.</p>
+    <p class="price">Price: <span>$980 / person</span></p>
+    <button class="btn-book">Confirm Booking</button>
+  </div>
+</section>
+
+<section class="tour-section">
+  <div class="tour-img">
+    <img src="assets/images/atlantic-forest.jpg" alt="Atlantic Forest">
+  </div>
+  <div class="tour-details">
+    <h2>Atlantic Forest Journey</h2>
+    <p>Wander through ancient rainforest along Brazil’s coast, discovering rich ecosystems, exotic plants, and timeless beauty.</p>
+    <p class="price">Price: <span>$820 / person</span></p>
+    <button class="btn-book">Confirm Booking</button>
+  </div>
+</section>
+
+  <section class="tour-section">
+    <div class="tour-img">
+      <img src="assets/images/rockies.jpg" alt="Rockies">
+    </div>
+    <div class="tour-details">
+      <h2>Rockies Summit Escape</h2>
+      <p>Climb into the breathtaking Rocky Mountains, where rugged peaks, alpine meadows, and endless horizons await. Experience the thrill of adventure and the serenity of nature on a summit journey you’ll never forget.</p>
+      <p class="price">Price: <span>$1,450 / person</span></p>
+      <button class="btn-book">Confirm Booking</button>
+    </div>
+  </section>
+
+    <section class="tour-section">
+    <div class="tour-img">
+      <img src="assets/images/sierra.jpg" alt="Sierra Nevada">
+    </div>
+    <div class="tour-details">
+      <h2>Sierra Nevada Ascent</h2>
+      <p>Embark on an unforgettable climb through the Sierra Nevada, where rugged granite peaks, alpine lakes, and sweeping vistas await. Challenge yourself on mountain trails while discovering the raw beauty and adventure of this legendary range.</p>
+      <p class="price">Price: <span>$1,100 / person</span></p>
+      <button class="btn-book">Confirm Booking</button>
+    </div>
+  </section>
+
+  <section class="tour-section">
+    <div class="tour-img">
+      <img src="assets/images/bali.jpg" alt="Bali">
+    </div>
+    <div class="tour-details">
+      <h2>Bali Beach Retreat</h2>
+      <p>Unwind along Bali’s golden shores, where rolling waves, beachside temples, and vibrant culture create the perfect balance of adventure and relaxation.</p>
+      <p class="price">Price: <span>$1,100 / person</span></p>
+      <button class="btn-book">Confirm Booking</button>
+    </div>
+  </section>
+ 
+  <section class="tour-section">
+    <div class="tour-img">
+      <img src="assets/images/komodo.jpg" alt="Komodo">
+    </div>
+    <div class="tour-details">
+      <h2>Komodo Island Shores</h2>
+      <p>Relax on pink-sand beaches and swim in crystal-clear waters while exploring the exotic beauty of Komodo Island, home to its legendary dragons.</p>
+      <p class="price">Price: <span>$1,100 / person</span></p>
+      <button class="btn-book">Confirm Booking</button>
+    </div>
+  </section>
+  
+  <section class="tour-section">
+    <div class="tour-img">
+      <img src="assets/images/paris.jpg" alt="Paris">
+    </div>
+    <div class="tour-details">
+      <h2>Paris Romantic Escape</h2>
+      <p>Stroll hand in hand along the Seine, marvel at the Eiffel Tower, and savor fine dining in the City of Love.</p>
+      <p class="price">Price: <span>$1,100 / person</span></p>
+      <button class="btn-book">Confirm Booking</button>
+    </div>
+  </section>
+
+
+<!-- Divider -->
+<hr class="divider">
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-top">
+    <div><img class="footer-logo" src="assets/images/header-logo.png" alt="logo"></div>
+    <ul>
+      <li><a href="about.html">About</a></li>
+      <li><a href="terms-&-condition.html">Terms & Condition</a></li>
+      <li><a href="privacy-policy.html">Privacy Policy</a></li>
+      <li><a href="refund.html">Refund Policy</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </div>
+  <div class="footer-bottom">
+    <p>Made with ❤️ by Eliyas © 2025 Tourista</p>
+  </div>
+</footer>
+
+<!-- Confirm Booking Popup -->
+<div id="bookingOverlay" class="modal-overlay"></div>
+<div id="bookingPopup" class="modal-popup">
+  <div class="popup-content">
+    <span id="closeBookingPopup" class="close">&times;</span>
+    <h2>Confirm Booking</h2>
+    <p id="selectedTour"></p>
+    <form id="bookingForm">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+      </div>
+      <button type="submit" id="finalConfirmBtn" class="btn-confirm">Confirm Booking</button>
+    </form>
+  </div>
+</div>
+
+<script src="js/bookings.js"></script>
+<script src="js/tours.js"></script>
+</body>
+</html>
