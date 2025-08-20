@@ -24,6 +24,7 @@ A web-based **Tour Management System** built as a varsity project. The system al
 ---
 
 ## 📂 Project Structure
+```
 Tour-Management-System/
 ├── assets/
 │ ├── images/
@@ -38,7 +39,7 @@ Tour-Management-System/
 ├── tours.html
 ├── terms-&-condition.html
 ├── refund.html
-
+```
 
 
 ---
